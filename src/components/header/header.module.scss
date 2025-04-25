@@ -1,0 +1,26 @@
+@use '../../vars' as *;
+.header{
+  display: flex;
+  align-items: center;
+
+  .logo{
+    width: 90px;
+  }
+  .nav{
+    font-family: TinkoffSans-Medium;
+    padding-left: 30px;
+    .link{
+      margin-right: 20px;
+      padding: 2px;
+      text-decoration: none;
+      color: $color-black;
+    }
+    .active{
+      background-color: $color-yellow;
+      color: $color-black;
+      font-size: 17px;
+      font-weight: bold;
+    }
+  }
+
+}
