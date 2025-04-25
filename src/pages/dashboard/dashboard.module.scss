@@ -1,5 +1,17 @@
 @use '../../vars' as *;
+.test{
+  font-family: TinkoffSans-Medium;
+  font-size: 30px;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  top: 30%;
+  left: 36%;
+  background-color: white;
 
+
+
+}
 .dashboard{
   display: flex;
   flex-direction: column;
