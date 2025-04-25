@@ -6,7 +6,7 @@ import './global.scss'
 
 
 createRoot(document.getElementById('root')!).render(
-        <BrowserRouter>
+        <BrowserRouter basename="/tinvestSite">
             <App />
         </BrowserRouter>
 
